@@ -1,5 +1,8 @@
 #include <unistd.h>
 
+/* Write a program called alpha_mirror that takes a string and displays this string
+after replacing each alphabetical character by the opposite alphabetical
+character, followed by a newline. */
 void	alpha_mirror(char *s)
 {
 	int i = 0;

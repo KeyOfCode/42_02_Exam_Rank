@@ -1,3 +1,4 @@
+/* Write a function that reverses (in-place) a string. */
 char	*ft_strrev(char *str)
 {
 	int i = 0;

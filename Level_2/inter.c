@@ -1,6 +1,11 @@
 #include <unistd.h>
 #include <stdio.h>
 
+/*  Write a program that takes two strings and displays, without doubles, the
+characters that appear in both strings, in the order they appear in the first
+one.
+*/
+
 int	already_in(char *str, char c, int len)
 {
 	int i = 0;

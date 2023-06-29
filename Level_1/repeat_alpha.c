@@ -9,7 +9,10 @@ void	ft_putchar_n(char c, int i)
 	}
 }
 
-void repeat_alpha(char *str)
+/* Write a program called repeat_alpha that takes a string and display it
+repeating each alphabetical character as many times as its alphabetical index,
+followed by a newline. */
+void	repeat_alpha(char *str)
 {
 	int i = 0;
 	while (str[i])
@@ -30,28 +33,3 @@ int main(int argc, char **argv)
 		repeat_alpha(argv[1]);
 	write (1, "\n", 1);
 }
-
-/* {
-		while (argv[1][i])
-		{
-			if (is_letter(argv[1][i]) == 1)
-			{
-				j = (argv[1][i]);
-				while (j >= 65)
-				{
-					write(1, &(argv[1][i]), 1);
-					j--;
-				}
-			}
-			if (is_letter(argv[1][i]) == 2)
-			{
-				j = (argv[1][i]);
-				while (j >= 97)
-				{
-					write(1, &(argv[1][i]), 1);
-					j--;
-				}
-			}
-			i++;
-		}
-	} */
